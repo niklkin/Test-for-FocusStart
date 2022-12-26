@@ -74,7 +74,7 @@
             android:autofillHints="123"
             android:clipChildren="false"
             android:scrollbars="vertical"
-            app:cardCornerRadius="4dp"
+            app:cardCornerRadius="3dp"
             app:cardElevation="0dp" />
     </androidx.cardview.widget.CardView>
 
