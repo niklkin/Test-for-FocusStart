@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Soft/JavaProjects/FocusStart/app/src/main/res/drawable/grid_row_border.xml" value="0.3245" />
+        <entry key="..\:/Soft/JavaProjects/FocusStart/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3245" />
         <entry key="..\:/Soft/JavaProjects/FocusStart/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Soft/JavaProjects/FocusStart/app/src/main/res/layout/bamk_user_item.xml" value="0.33" />
         <entry key="..\:/Soft/JavaProjects/FocusStart/app/src/main/res/layout/bank_user_item.xml" value="0.67" />

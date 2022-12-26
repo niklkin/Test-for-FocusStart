@@ -5,82 +5,143 @@
     android:id="@+id/gridLayout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
-    android:layout_marginRight="10dp"
-    android:layout_marginBottom="10dp"
-    android:background="#FFFFFF"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/grid_row_border"
+
     android:columnCount="3"
     app:barrierMargin="10dp">
 
-    <TextView
-        android:id="@+id/scheme_network"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="27dp" />
+    <!--tools:layout_editor_absoluteX="25dp"
+    tools:layout_editor_absoluteY="27dp" />-->
 
     <TextView
         android:id="@+id/type"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:layout_width="120sp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_light_background"
+        android:foregroundGravity="top"
         android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="27dp" />
+        android:textSize="14dp" />
 
     <TextView
-        android:id="@+id/bank"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:id="@+id/scheme_network"
+        android:layout_width="120sp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_light_background"
+        android:foregroundGravity="top"
         android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="27dp" />
-
-    <TextView
-        android:id="@+id/brand"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="27dp" />
-
-    <TextView
-        android:id="@+id/prepaid"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="27dp" />
-
-    <TextView
-        android:id="@+id/card_number"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="27dp" />
+        android:textSize="14dp" />
 
     <TextView
         android:id="@+id/country"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:layout_width="120sp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_light_background"
+        android:foregroundGravity="top"
         android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="27dp" />
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="120sp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_light_background"
+        android:foregroundGravity="top"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="TextView"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/prepaid"
+        android:layout_width="120sp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_light_background"
+        android:foregroundGravity="top"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="TextView"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/card_number"
+        android:layout_width="120sp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_light_background"
+        android:foregroundGravity="top"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="TextView"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/bank"
+        android:layout_width="120sp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/cardview_light_background"
+        android:foregroundGravity="top"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="TextView"
+        android:textSize="14dp" />
 
 
 </GridLayout>

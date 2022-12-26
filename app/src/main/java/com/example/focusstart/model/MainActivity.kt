@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var textViewInfo: TextView
     lateinit var rv: RecyclerView
     lateinit var qAdapter: QAdapter
+    var qListItem = mutableListOf<Q>()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -64,11 +65,15 @@ class MainActivity : AppCompatActivity() {
 
             override fun onResponse(call: Call<Q>, response: Response<Q>) {
                 Log.d("thug", response.body()!!.toString())
-                qAdapter = QAdapter(response.body()!!)
+
+                qListItem.add(response.body()!!)
+                Log.d("list count", qListItem.size.toString())
+                qAdapter = QAdapter(qListItem)
                 rv = findViewById(R.id.rv)
                 rv.setHasFixedSize(true)
-                rv.adapter = qAdapter
                 rv.layoutManager = LinearLayoutManager(this@MainActivity)
+                rv.adapter = qAdapter
+
 
             }
         })
